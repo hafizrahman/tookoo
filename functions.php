@@ -115,6 +115,7 @@ add_action( 'wp_enqueue_scripts', 'tookoo_scripts' );
 //require( get_template_directory() . '/inc/custom-header.php' );
 
 
+// Call the tookoo_product posts on the homepage's main query
 add_filter( 'pre_get_posts', 'tookoo_get_posts' );
 function tookoo_get_posts( $query ) {
 

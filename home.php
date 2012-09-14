@@ -44,6 +44,7 @@ get_header(); ?>
 			<div id="content" class="site-content" role="main">
 
 			<?php if ( have_posts() ) : ?>
+				<h2 id="recent-products">Recent Products</h2>
 
 				<?php tookoo_content_nav( 'nav-above' ); ?>
 
